@@ -46,14 +46,14 @@
 
 }
 @keyframes f2{
-    0%{background-color: ; left: 0px; top: 0px;}
-    25%{background-color: ; left: 18vw; top: 0px;}
-    100%{background-color: black; color: blueviolet; left: 18vw; top: 35vh;}
+    0%{ left: 0px; top: 0px;}
+    25%{left: 18vw; top: 0px;}
+    100%{ color: blueviolet; left: 18vw; top: 35vh;}
 }
 
 
 .c {
-    background-color: ;
+    
     animation-name: f3;
     animation-duration: 3s;
     position: relative;
@@ -69,26 +69,26 @@
 
 }
 @keyframes f1{
-    0%{background-color: ;  color: blueviolet; left: 50%; top: 25vh;}
-    20%{background-color: ; left: 50vw; top: 20vh;}
+    0%{ color: blueviolet; left: 50%; top: 25vh;}
+    20%{ left: 50vw; top: 20vh;}
     40%{background-color: gold;left: 0vw; top: 20vh;}
     60%{background-color: black ; left: 18vw; top: 20vh;}
     80%{background-color: brown; left: 18vw; top: 20vh;}
     100%{background-color:black ;color: blueviolet;left:18vw;top: 20vh; }
 }
 @keyframes f5{
-    0%{background-color: ;color: blueviolet; left: 50%; top: 25vh;}
-    20%{background-color: ; left: 50vw; top: 20vh;}
+    0%{color: blueviolet; left: 50%; top: 25vh;}
+    20%{ left: 50vw; top: 20vh;}
     40%{background-color: gold;left: 0vw; top: 20vh;}
-    60%{background-color: ; left: 47vw; top: 20vh;}
+    60%{ left: 47vw; top: 20vh;}
     80%{background-color: brown; left: 47vw; top: 5vh;}
     100%{background-color: black;color: blueviolet;left:47vw;top: 5vh; }
 }
 @keyframes f3{
-    0%{background-color: ; color: blueviolet; left: 50%; top: 25vh;}
-    20%{background-color: ; left: 50vw; top: 20vh;}
+    0%{color: blueviolet; left: 50%; top: 25vh;}
+    20%{left: 50vw; top: 20vh;}
     40%{background-color: gold;left: 0vw; top: 20vh;}
-    60%{background-color: ; left: 0vw; top: 0.1vh;}
+    60%{ left: 0vw; top: 0.1vh;}
     80%{background-color: black; left: 46%; top: 0.1vh;}
     100%{background-color: black; color: blueviolet;left: 46%; top: 20vh;}
 }
