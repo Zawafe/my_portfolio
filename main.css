@@ -1,0 +1,122 @@
+.text-container {
+    background-color: chocolate;
+    height: 100vh;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.a1 {
+    text-align: center;
+}
+
+.a {
+    background-color: rgb(243, 217, 66);
+    height: 100vh;
+}
+.second_animation {
+    border: none !important;
+    background-color: transparent;
+    animation-name: ad;
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+    animation-duration: 5s;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+
+.text-div {
+    height: 15vh;
+    background-color: rgb(109, 26, 242);
+    text-align: center;
+    animation-name: f2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    width: 30% !important;
+    max-width: 100%;
+    word-wrap: none;
+    overflow: hidden;
+    white-space: normal;
+
+}
+@keyframes f2{
+    0%{background-color: ; left: 0px; top: 0px;}
+    25%{background-color: ; left: 18vw; top: 0px;}
+    100%{background-color: black; color: blueviolet; left: 18vw; top: 35vh;}
+}
+
+
+.c {
+    background-color: ;
+    animation-name: f3;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite
+}
+
+.d {
+    background-color: magenta;
+    animation-name: f1;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite
+
+}
+@keyframes f1{
+    0%{background-color: ;  color: blueviolet; left: 50%; top: 25vh;}
+    20%{background-color: ; left: 50vw; top: 20vh;}
+    40%{background-color: gold;left: 0vw; top: 20vh;}
+    60%{background-color: black ; left: 18vw; top: 20vh;}
+    80%{background-color: brown; left: 18vw; top: 20vh;}
+    100%{background-color:black ;color: blueviolet;left:18vw;top: 20vh; }
+}
+@keyframes f5{
+    0%{background-color: ;color: blueviolet; left: 50%; top: 25vh;}
+    20%{background-color: ; left: 50vw; top: 20vh;}
+    40%{background-color: gold;left: 0vw; top: 20vh;}
+    60%{background-color: ; left: 47vw; top: 20vh;}
+    80%{background-color: brown; left: 47vw; top: 5vh;}
+    100%{background-color: black;color: blueviolet;left:47vw;top: 5vh; }
+}
+@keyframes f3{
+    0%{background-color: ; color: blueviolet; left: 50%; top: 25vh;}
+    20%{background-color: ; left: 50vw; top: 20vh;}
+    40%{background-color: gold;left: 0vw; top: 20vh;}
+    60%{background-color: ; left: 0vw; top: 0.1vh;}
+    80%{background-color: black; left: 46%; top: 0.1vh;}
+    100%{background-color: black; color: blueviolet;left: 46%; top: 20vh;}
+}
+
+.e {
+    animation-name: f5;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+}
+
+/* @keyframes start{
+    0%{left: 0vw; top: 0; background-color: blue;}
+} */
+@keyframes ad {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.b {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}

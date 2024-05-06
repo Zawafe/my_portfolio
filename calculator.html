@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+    </div>
+    <style>
+        @keyframes moveLeftToRight {
+            0% { left: 0; }
+            100% { left: calc(100% - 100px); }
+        }
+
+        /* @keyframes moveRightToLeft {
+            0% { left: calc(100% - 100px); }
+            100% { left: 0; }
+        } */
+
+        #movingWord {
+            font-size: 24px;
+            position: absolute;
+            animation: moveLeftToRight 5s linear infinite;
+        }
+
+        /* #movingWord.rightToLeft {
+            animation: moveRightToLeft 5s linear infinite;
+        } */
+    </style>
+</head>
+<body>
+    <div id="movingWord">START </div>
+
+    <!-- <script>
+        const movingWord = document.getElementById('movingWord');
+
+        movingWord.addEventListener('animationiteration', () => {
+            movingWord.classList.toggle('rightToLeft');
+        });
+    </script> -->
+    <script src="calculator.js"></script>
+   <br> <br> <h1>NOTE: this calculator will be located at the top right part of the screen we are telling you this so that you wont waste your time looking for it when it starts</h1>
+     <h3>to cool your mind if u need music click <a href="indexdk.html">here</a></h3>
+    <h3> So if you are ready to start lets start, input your details so that the database can fetch it</h3> <br>
+    <input type="search" value=" registrarion number" class="a"> 
+     <a href="index2.html"><input type="submit" value="submit"></a>
+</body>
+</html>

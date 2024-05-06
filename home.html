@@ -1,0 +1,564 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<style>
+  .h1 {}
+
+  .l1 {}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .a1 {
+    animation-name: ad;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  .a5 {
+    animation-name: ad1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  .a6 {
+
+    animation-name: ad2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  .a3 {
+    animation-name: ad;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes ad2 {
+    0% {
+      color: black;
+    }
+
+    10% {
+      color: blue;
+    }
+
+    20% {
+      color: paleturquoise;
+    }
+
+    30% {
+      color: goldenrod;
+    }
+
+    40% {
+      color: greenyellow;
+    }
+
+    50% {
+      color: black;
+    }
+
+    60% {
+      color: grey;
+    }
+
+    70% {
+      color: red;
+    }
+
+    80% {
+      color: black;
+    }
+
+    90% {
+      color: brown;
+    }
+
+    100% {
+      color: indigo;
+    }
+  }
+
+  @keyframes ad {
+    0% {
+      color: black;
+    }
+
+    10% {
+      color: red;
+    }
+
+    q 20% {
+      color: yellow;
+    }
+
+    30% {
+      color: green;
+    }
+
+    40% {
+      color: purple;
+    }
+
+    50% {
+      color: wheat;
+    }
+
+    60% {
+      color: grey;
+    }
+
+    70% {
+      color: pink;
+    }
+
+    80% {
+      color: black;
+    }
+
+    90% {
+      color: brown;
+    }
+
+    100% {
+      color: blue;
+    }
+  }
+
+  @keyframes ad1 {
+    0% {
+      color: blue;
+    }
+
+    10% {
+      color: brown;
+    }
+
+    20% {
+      color: black;
+    }
+
+    30% {
+      color: pink;
+    }
+
+    40% {
+      color: grey;
+    }
+
+    50% {
+      color: wheat;
+    }
+
+    60% {
+      color: purple;
+    }
+
+    70% {
+      color: green;
+    }
+
+    80% {
+      color: yellow;
+    }
+
+    90% {
+      color: red;
+    }
+
+    100% {
+      color: black;
+    }
+  }
+
+  .bd1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+
+
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+
+
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+  }
+
+  .fakeimg4 {
+    background-color: #aaa;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+  }
+
+  .fakeimge {
+    background-color: firebrick;
+    width: 100%;
+
+    padding: 20px;
+  }
+
+  .card2 {
+
+    padding: 20px;
+
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+
+    margin-top: 20px;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: 20%;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  @media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+</style>
+</head>
+
+<body>
+  <div class="l1">
+    <div class="header">
+      <div class="head1">
+        <h1 class="bd1"> <a class="a1">Welcome</a> <a class="a5"> you </a> <a class="a3">have</a> <a class="a3">chosen
+            the </a><a class="a5">right </a> <a class="a6"> programmer</a></h1>
+      </div>
+    </div>
+
+    <div class="topnav">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CONTACT</a>
+      <a href="#" style="float:right">CV</a>
+    </div>
+    <div class="bdimg">
+
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Why Me?</h2>
+          <h5></h5>
+          <div class="fakeimg" style="height:200px;">
+            <h4> I am a web developer a guru both front-end and back-end developer. I am a specialist in HTML, CSS,
+              JavaScript, Python , MYSQL etc. </h4>
+            <h4> I need your job for now till Elon Musk will call me, he would have called me since buh he is just
+              thaking his time so that i can be thenext Elon Musk abd i will be Known as Zawaf the Batman</h4>
+          </div>
+          <p>i dont what to type here i semi-like programming, its difficult, but i keep telling people its easy, thats
+            why for my second job i will be charging NGN1million, cause writing codes its not as easy as it seems </p>
+          <p></p>
+        </div>
+
+
+
+        <div class="card">
+          <h2>Front-End/Back-End</h2>
+
+          <div class="fakeimge" style="height:200px;">
+            <h5>I am studing and have adapted myself to the world of coding, not a pro yet, but i can make a website
+              which has both front-end and Back-End </h5>
+          </div><br>
+        </div>
+
+        <div class="card">
+          <h2>works I have done in the past</h2>
+          <h5>it includes only HTML,CSS &JavaScriot</h5>
+          <div class="fakeimge" style="height:200px;">
+            <iframe src="calculator.html" style="height:150px;width:30vw"></iframe> calculator
+          </div><br> <br> <br>
+          <p>Some text..</p>
+        </div>
+        <div class="card2">
+          <div class="responsive">
+            <div class="gallery">
+
+              <img src="fawaz.jpg" alt="" width="600" height="400">
+
+
+            </div>
+          </div>
+
+
+          <div class="responsive">
+            <div class="gallery">
+
+              <img src="fawaz.jpg" alt="" width="600" height="400">
+
+
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+
+              <img src="fawaz.jpg" alt="" width="600" height="400">
+
+
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+
+              <img src="fawaz.jpg" alt="s" width="600" height="400">
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Educational background</h2>
+          <div class="fakeimge" style="height:200px;">
+            <h5>after completing both my primary and secondary institution i thought to myself what can i do before
+              going to the higher institution so i figured i should go learn programming, maybe it will bring in cool
+              cash FYI it didn't but i nevert gave up i continued and hoping one day you would be the one to give me a
+              job</h5>
+
+          </div><br> <br> <br>
+          <p>Some text..</p>
+        </div>
+
+
+      </div>
+
+
+      <div class="rightcolumn">
+
+        <div class="card">
+          <h2>About Me</h2>
+          <div class="fakeimg4" style="height:50%;">
+            <h2>who is Sanni Fawaz?</h2>
+            <p>I am part of the male gender, i come from a small town in Kwara. A citizen by birth of the Fedral
+              Republic of Nigeria, i am an entrepreneur, a specialistin web Development, which clearly makes me a web
+              developer </p>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <h3 class="h1"> <img src=" " alt=""></h3>
+          <div class="fakeimg">
+
+          </div>
+          <div class="fakeimg">
+
+          </div>
+          <div class="fakeimg">
+            <p class="h1">Image</p>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <h3><b> Contact Me</b></h3>
+          <p>Linkdin:</p>
+          <p>no:+2347080354812</p>
+          <p>whatsapp no:+2349097671722</p>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>
+        <p> Cv</p> <br>
+        <p>Educational </p> <br>
+        <p> LINKEDIN ACCOUNT</p>
+        <p></p> <br>
+      </div>
+      <div>
+        <p> SOAIR.com</p> <br>
+        <p>ZAWAF.ng </p> <br>
+        <p></p>
+      </div>
+      <div>
+        <div class="dropdown">
+          <span>Location</span>
+          <div class="dropdown-content">
+            <p>Nigeria</p>
+          </div>
+        </div> <br>
+        <a class="dropdown">
+          <span>SkillS</span>
+          <div class="dropdown-content">
+            <p>click</p>
+          </div>
+        </a>
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+  </div>
+
+
+</body>
