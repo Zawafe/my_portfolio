@@ -1,9 +1,3 @@
-// function delay() {
-//     setTimeout(function() {
-//         window.location.href = 'home.html'
-//     }, 50000);
-// }
-// window.onload = delay
 
 
 var texts = ["WELCOME", "TO", "THE", "FUTURE"];

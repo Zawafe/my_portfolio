@@ -1,5 +1,5 @@
 .text-container {
-    background-color: chocolate;
+    background-color: cyan;
     height: 100vh;
 }
 
@@ -9,7 +9,9 @@
     padding: 0;
     box-sizing: content-box;
 }
-
+p{
+    font-size: xx-large;
+}
 .a1 {
     text-align: center;
 }
